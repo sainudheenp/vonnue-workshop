@@ -3,7 +3,11 @@
 int main()
 {
     int num = 8;
+
+    
     while (num > 1)
+
+
     {
         for (int i = 1; i < num; i++)
         {
@@ -20,10 +24,10 @@ int main()
           }
         }
         printf("not prime");
-    }
+    }  
     
+     
 }
-
 
 
 
@@ -38,19 +42,30 @@ int main()
         int prime=10 ;
         isprime(10)
         int find(num){
-            if(num<1)
+
+
+
+
+ if(num<1){
 
     for (int i = 2; i * i <= num; i++) {
-        if (num % i == 0)
-        printf("prime")
+        if (num % i == 0){
+
+
+        printf("prime");
+
+
+    
 
         }
         else {
-            not prime
-        }
+            printf("prime");
+        }}
+           
 
 int main() {    
      
+}
 }
 
 
