@@ -1,0 +1,17 @@
+.main{
+    height: 200px;
+    width: 100%;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main div{
+    width:55px;
+    height: 40px;
+    background-color: #bf4545;
+}
+div:nth-child(1) {
+   
+    align-items: flex-end;
+}

@@ -1,0 +1,81 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    border: 7px solid lightblue;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.inn {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* net ninjas  */
+
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.panels {
+    list-style-type: none;
+    padding: 0;
+}
+
+.panels li {
+    position: relative;
+    width: 25%;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+
+}
+
+.panels li div {
+    width: 100%;
+    padding: 50% 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.panels div.back {
+    transform: rotateY(90deg);
+}
+
+.panels div.front {
+    position: absolute;
+}
+
+.panels li:hover div.front {
+    animation: twirl 0.2s else-in forwards;
+}
+
+.panels li:hover div.back {
+    animation: twirl 2s else-in forwards reversek;
+    /* animation: twirl 3.2s else-in forwards reversek; */
+}
+
+
+@keyframes twirl {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(90deg)
+    }
+
+}

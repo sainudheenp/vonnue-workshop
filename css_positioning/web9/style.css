@@ -1,0 +1,138 @@
+body {
+    background: #eee;
+}
+
+.wrapper {
+    background: #ffffff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+
+
+}
+
+.wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+/* .red{
+    background: red;
+   
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    position: relative;
+ display: inrow-block
+} */
+
+
+.services h2,
+.services p {
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.services {
+    float: left;
+    background: #eee;
+
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.content {
+    padding: 10px;
+    background: #ccc;
+
+    clear: left;
+    margin: 20px 1%;
+
+}
+
+section,
+aside {
+    float: left;
+    width: 46%;
+    margin: 1%;
+    padding: 1%;
+    background: #f2f2f2;
+}
+
+.column::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#banner {
+    max-height: 300px;
+    overflow: hidden;
+    margin: 1%;
+
+}
+
+#immg {
+    width: 100%;
+}
+
+#banner h2 {
+    position: relative;
+    top: 30px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+
+
+.navbar ul {
+    background-color: #ccc;
+    list-style: none;
+    display: flex;
+
+}
+
+/* how create a nav 
+define 4 li inside of nav tag ,then write our first 
+parent class :name nav tag <nav> 
+then add css props display :flex  */
+
+
+
+
+
+.navbar ul img{
+  float: inline-end;
+}
+
+
+
+.navbar a  {
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  
+
+
+}
+
+.navbar a:hover {
+    background-color: rgb(185, 14, 14);
+
+
+}

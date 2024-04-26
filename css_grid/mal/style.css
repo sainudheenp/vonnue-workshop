@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: auto;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+}

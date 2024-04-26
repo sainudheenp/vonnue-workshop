@@ -1,0 +1,51 @@
+<!-- YT #2 -->
+<html>
+    <head>
+        <title>
+        </title>
+    </head>
+    <style>
+        body{
+            color: #1b1515;
+            text-align: center;
+        }
+        #content{
+            display: grid;
+        
+            /* grid-template-columns: 33.3% 33.3% 33.3%; */
+          grid-template-columns: 1fr 1fr 1fr;
+       grid-auto-rows: minmax(200px,auto);/* size managing based on content */
+            grid-template-columns: repeat(3,1fr);
+            max-width: 960px;
+            grid-template-rows: repeat(3,200px);
+            margin: 0 auto;
+            grid-column-gap: 12px;
+            
+        }
+    
+        
+        #content div{
+            background: #3bbced;
+            padding: 30px;
+            margin: 20px;
+        }
+    #content div:nth-child(even){
+        background: #777;
+    }
+
+
+    </style>
+    <body>
+        
+        <div id="content">
+            <div>1</div>
+            <div>2</div>
+<div>3</div>            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+    </body>
+</html>

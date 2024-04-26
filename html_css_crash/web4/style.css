@@ -1,0 +1,19 @@
+/* p.error{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(179, 98, 0);
+}
+.success{
+    color: rgb(154, 47, 255);
+}
+p.success.feedback{
+    border: 1px darkblue dashed;
+}
+
+#content{
+margin: 20px;
+background-color: blanchedalmond   ;
+} */
+
+div .error{
+    color: purple;
+}
